@@ -1,0 +1,44 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<table body style="background-color:#F0F8FF" border=2>
+<body style="background-color:#F0F8FF;border : double;margin:8% 35%">
+<form action="LoginServlet" >
+    <div id="login">
+        
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post"><br>
+                            <h3 class="text-center text-info">Student Login</h3><br>
+                            <div class="form-group">
+                                <label for="username" style="width:50%;margin-left:50px" class="text-info">Username:</label><br>
+                                <input type="text" name="uname" id="username" style="width:75%;margin-left:40px"  class="form-control" required><br>
+                            </div>
+                            <div class="form-group">
+                       
+                                <label for="password"  style="width:50%;margin-left:50px" class="text-info">Password:</label><br>
+                                <input type="password" name="upass" id="password" style="width:75%;margin-left:40px" class="form-control" required><br>
+                            </div>
+                            
+                                <input type="submit" name="submit"  style="margin-left:40px"   class="btn btn-info btn-md" value="submit"><br><br>
+                            </div>
+                            
+                            
+                            <a href="admin.html"  style="margin-left:40px"  class="text-info">Admin Login</a><br><br>
+                                <a href="Register.html"  style="margin-left:40px"  class="text-info">Register here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</table>
+</html>
